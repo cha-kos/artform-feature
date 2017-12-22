@@ -15,7 +15,7 @@
 <body>
   <header>
     <div class="header-left">
-      <span>ARTFORM</span>
+      <span class='logo'>ARTFORM</span>
       <div class="search-container">
         <svg id='search-icon' xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
         <input id="search-input" class="search-input" type="text" name="search">
@@ -29,10 +29,30 @@
       <img class='thumbnail' src='thumbnail.jpeg' alt='Me' height='40' width='40'/>
     </div>
   </header>
-    
   <div class="content-container">
-    <div class="left">Left</div>
-    <div class="right">Right</div>
+    <div class="left">
+      <div class='user-info'>
+        <img class='thumbnail' src='thumbnail.jpeg' alt='Me' height='40' width='40'/>
+        <span class='user-name'>Petra Collins</span>
+        <span class='post-time'>5 days ago</span>
+      </div>
+      <div class='post-content'>My bestfriends came to visit me, they look amazing.</div>
+      <div class='comment-share'>
+        <span class='comments'>4 comments</span>
+        <span class='share'>Share</span>
+      </div>
+    </div>
+    <div class="right">
+      <div id='exclusive-content' class='exclusive-content'>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        </div>
+        <div class='exclusive-content-text'>Exclusive Content</div>
+          <div class='support-petra-text'>Support Petra and her work to see this content.</div>
+          <button id='support-button'>Support Petra</button>
+        </div>
+      <img id='post-image' class='post-image' src='https://images.unsplash.com/photo-1501013344374-3cbf63baf107?auto=format&fit=crop&w=2250&q=80' height='490' width='490'/>
+    </div>
   </div>
 </body>
 </html>
