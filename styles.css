@@ -12,6 +12,9 @@ button{
   outline: none;
   cursor: pointer;
 }
+img{
+  cursor: pointer;
+}
 
 .header-left{
   display: flex;
@@ -54,6 +57,7 @@ button{
   width: 280px;
   position: absolute;
   background: lightgray;
+  cursor: text;
 }
 .search-cover span{
   position: absolute;
