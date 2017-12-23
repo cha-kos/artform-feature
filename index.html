@@ -7,8 +7,10 @@
   <title>Artform Feature</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="./styles/app.css">
+  <link rel="stylesheet" type="text/css" href="./styles/header.css">
+  <link rel="stylesheet" type="text/css" href="./styles/content.css">
   <script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -25,8 +27,14 @@
     <div class="header-right">
       <button>Become an Artist</button>
       <button>Explore</button>
-      <button>Me</button>
-      <img class='thumbnail' src='thumbnail.jpeg' alt='Me' height='40' width='40'/>
+      <div class='dropdown'>
+        <button>Me</button>
+        <img class='thumbnail' src='thumbnail.jpeg' alt='Me' height='40' width='40'/>
+        <div class='dropdown-content'>
+          <a href="#">Account</a>
+          <a href="#">Settings</a>
+          <a href="#">Help</a>
+        </div>
     </div>
   </header>
   <div class="content-container">

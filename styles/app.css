@@ -1,0 +1,14 @@
+body{
+  font-family: sans-serif;
+}
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
+}
+.thumbnail{
+  border-radius: 20px;
+}
